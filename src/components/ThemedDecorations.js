@@ -5,7 +5,7 @@ export default class ThemedDecorations extends React.Component {
   render() {
     const addClass = React.Children.map(this.props.children, child => {
       return (
-        <div className="theme">{child}</div>
+        <div className="heaven">{child}</div>
       );
     })
   
